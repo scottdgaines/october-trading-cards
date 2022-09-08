@@ -1,0 +1,51 @@
+/* Styling index.html */
+
+body {
+    border: 2px solid blue;
+    margin: 0px 0px;
+    font-family: 'El Messiri', sans-serif;
+    height: 200vw;
+}
+
+nav {
+    background-image: url('https://i.pinimg.com/564x/a3/17/16/a3171613d41d2f996ed51fd9ffc5b1fa.jpg');
+    background-position: center;
+    border: 2px solid red;
+    height: 200px;
+    width: 100vw;
+    color: #D1CCC6;
+    font-size: 20px;
+}
+
+.deck-header {
+    width: 100vw;
+    font-size: 40px;
+    color: lightgrey;
+    margin-left: 15px;
+}
+
+.deck {
+    background-color: #0E1215;
+    border: 2px solid orange;
+    align-content: flex-start;
+    height: 200vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.card {
+    border: 2px solid green;
+    background-color: #D1CCC6;
+    box-shadow: 2px 2px #8A3C25;
+    height: 450px;
+    margin: 10px 7px;
+    width: 325px;
+}
+
+.card-header {
+    border: 2px solid red;
+    height: 150px;
+}
+
